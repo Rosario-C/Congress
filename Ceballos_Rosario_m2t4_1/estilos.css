@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Nanum Pen Script', cursive;
+
+}
+body{
+padding-left: 2rem;
+padding-right: 2rem;
+background-image: url(./img/OIP.jpg);
+background-repeat: no-repeat;
+background-position: center center;
+background-attachment: fixed;
+background-size: cover; 
+
+}
+.myHeader{
+    display:flex ;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+h1{
+    color: white;
+}
+
+a{
+    font-size: larger;
+    text-decoration: none;
+
+}
+
+
+/* #opciones{
+
+    /* margin: 0.5rem;
+    padding: 0.5rem; */
+/* }  */
+.navbar{
+    border: 2px solid;
+
+    /* margin-bottom: 1rem; */
+}
+.footer{
+    border: 2px solid;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    background-color: rgb(25, 25, 104) !important;
+    color: white;
+}
+.columna{
+    background-color: rgb(25, 25, 104) !important;
+}
+.container{
+  font-size: large;
+padding-top: 1rem;
+
+}
+.conteinerDiv{
+    padding-top: 2rem;
+}
+.textConteiner{
+    padding-top: 2rem;
+    background-color: rgba(255, 255, 255, 0.76);  
+}
+.img_Header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.textoImg{
+    display: flex;
+
+}
+.infoData{
+    font-size: x-large;
+}
+.contenedorOptions{
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    padding: 1rem;
+    color: white;
+    background-color: rgb(153, 17, 17);
+
+}
+
+a:hover{
+   color: rgb(3, 26, 77);
+}
+
+@media (max-width: 700px) {
+    .textoImg{
+        flex-direction: column;
+    }
+    
+}
+table{
+background-color: rgba(255, 255, 255, 0.76);
+    text-decoration: none;
+}
+.text{
+    background-color: rgba(255, 255, 255, 0.76);  
+}
+h3{
+
+}
